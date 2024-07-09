@@ -18,19 +18,18 @@ body{
     align-items: center;
     width: 1440px;
     height: 652px;
-    border: 2px solid red;
+
     margin: 0 auto;
     padding: 0;
     background-image: url("./assets/Hero-bg.png");
     background-size: cover;
     background-position: center;
+    margin-top: 50px;
 }
 
 .motivation-page-content{
     text-align: center;
-    padding: ;
-    border-radius: ;
-    box-shadow: ;
+    
 }
 
 .coder-image{
@@ -72,3 +71,100 @@ body{
     font-weight: 600;
     border-radius: 8px;
 }
+
+/* ques-section starts here */
+
+.ques-section-container{
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+    
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1140px;
+    height: 1200px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+.upper-heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+}
+
+.upper-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.book-container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+}
+.book-content{
+    text-align: left;
+    flex: auto;
+    padding: 20px;
+}
+
+.book-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+ .book-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+ }
+
+ .learn-more{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    width: 170px;
+    height: 60px;
+    padding: 12px 20px 12px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+ }
+
+ .book-image{
+    display: flex;
+    text-align: center;
+    width: 223.2px;
+    height: 208.85px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 0;
+    
+ }
+
+
+
