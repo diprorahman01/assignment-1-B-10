@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Azeret Mono;
+}
+
+/* motivation-page starts here */
+
+.motivation-page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 652px;
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("./assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.motivation-page-content{
+    text-align: center;
+    padding: ;
+    border-radius: ;
+    box-shadow: ;
+}
+
+.coder-image{
+    width: 240.28px;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+.motivation-page-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.motivation-page-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact-button-container{
+    background: rgb(13, 19, 33);
+    width: 250px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.contact-button-content{
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
